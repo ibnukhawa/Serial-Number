@@ -1,0 +1,1 @@
+import mrp_serial_number
