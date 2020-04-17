@@ -1,1 +1,1 @@
-import mrp_serial_number
+import serial_number

@@ -7,8 +7,8 @@
   ],
   'data': [
     
-    'views/mrp_serial_number.xml',
-    'report/report_mrp_serial_number.xml', 
+    'views/serial_number.xml',
+    'report/report_serial_number.xml', 
     # 'data/mrp_serial_number_sequence.xml'
     
   ],

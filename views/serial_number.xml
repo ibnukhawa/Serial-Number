@@ -2,8 +2,8 @@
 <odoo>
     <data>
 	    <record model="ir.ui.view" id="mrp_part_request_view">
-	        <field name="name">mrp.serial.number.form</field>
-	        <field name="model">mrp.serial.number</field>
+	        <field name="name">serial.number.form</field>
+	        <field name="model">serial.number</field>
 	        <field name="arch" type="xml">
 	        	<form string="Bill of Materials Revision">
 	        		<sheet>
@@ -68,8 +68,8 @@
 	    </record>
 
 	    <record model="ir.ui.view" id="mrp_part_request_form_view">
-	        <field name="name">mrp.serial.number.tree</field>
-	        <field name="model">mrp.serial.number</field>
+	        <field name="name">serial.number.tree</field>
+	        <field name="model">serial.number</field>
 	        <field name="arch" type="xml">
 	        	<tree string="Serial Number">
 	        		<field name="name"/>
@@ -84,7 +84,7 @@
 	    <record model="ir.actions.act_window" id="action_mrp_part_request">
 	        <field name="name">Serial Number</field>
 	        <field name="type">ir.actions.act_window</field>
-	        <field name="res_model">mrp.serial.number</field>
+	        <field name="res_model">serial.number</field>
 	        <field name="view_type">form</field>
 	        <field name="view_mode">tree,form</field>
 	    </record>

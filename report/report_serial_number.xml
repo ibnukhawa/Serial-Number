@@ -2,14 +2,14 @@
 <odoo>
     <data>
         <report 
-            id="report_mrp_serial_number" 
-            model="mrp.serial.number" 
+            id="report_serial_number" 
+            model="serial.number" 
             string="Serial Number"
-            name="serial_number.report_mrp_serial_number_template" 
-            file="serial_number.report_mrp_serial_number_template" 
+            name="serial_number.report_serial_number_template" 
+            file="serial_number.report_serial_number_template" 
             report_type="qweb-pdf"/>
 
-        <template id="report_mrp_serial_number_template">
+        <template id="report_serial_number_template">
             <t t-call="report.html_container">
                 <div class="page">
                     <t t-foreach="docs" t-as="doc">
